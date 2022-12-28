@@ -1,0 +1,59 @@
+{
+  "name": "chatgpt-tray-app",
+  "productName": "ChatGPT Menubar App",
+  "version": "0.0.1",
+  "description": "Menubar app for ChatGPT",
+  "main": ".webpack/main",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flaviodelgrosso/chatgpt-tray-app.git"
+  },
+  "author": {
+    "name": "Flavio Del Grosso",
+    "email": "flaviodelgrosso@live.it"
+  },
+  "keywords": [
+    "chatgpt",
+    "openai",
+    "mac",
+    "electron",
+    "app"
+  ],
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package --arch arm64,x64",
+    "make": "electron-forge make --arch arm64,x64",
+    "publish": "electron-forge publish --arch arm64,x64",
+    "lint": "eslint --ext .ts .",
+    "format": "prettier --write \"src/**/*.{ts,css}\""
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0",
+    "update-electron-app": "^2.0.1"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.4",
+    "@electron-forge/maker-deb": "^6.0.4",
+    "@electron-forge/maker-dmg": "^6.0.4",
+    "@electron-forge/maker-rpm": "^6.0.4",
+    "@electron-forge/maker-squirrel": "^6.0.4",
+    "@electron-forge/maker-zip": "^6.0.4",
+    "@electron-forge/plugin-webpack": "^6.0.4",
+    "@electron-forge/publisher-github": "^6.0.4",
+    "@typescript-eslint/eslint-plugin": "^5.47.0",
+    "@typescript-eslint/parser": "^5.47.0",
+    "@vercel/webpack-asset-relocator-loader": "1.7.3",
+    "css-loader": "^6.7.3",
+    "electron": "22.0.0",
+    "eslint": "^8.30.0",
+    "eslint-plugin-import": "^2.26.0",
+    "fork-ts-checker-webpack-plugin": "^7.2.14",
+    "node-loader": "^2.0.0",
+    "prettier": "^2.8.1",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^9.4.2",
+    "ts-node": "^10.9.1",
+    "typescript": "~4.9.4"
+  }
+}
