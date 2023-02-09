@@ -1,7 +1,7 @@
 {
   "name": "chatgpt-tray-app",
   "productName": "ChatGPT Menubar App",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Menubar app for ChatGPT",
   "main": ".webpack/main",
   "license": "MIT",
