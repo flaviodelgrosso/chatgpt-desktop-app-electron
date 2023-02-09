@@ -6,7 +6,9 @@ import { app, globalShortcut } from 'electron';
 import { createAppWindow, setupTrayIcon } from './appWindow';
 
 if (process.platform === 'darwin') {
-  app.dock.hide();
+  setTimeout(() => {
+    app.dock.hide();
+  }, 2000);
 }
 
 app.on('ready', () => {
