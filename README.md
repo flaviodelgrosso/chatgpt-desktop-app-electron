@@ -9,8 +9,8 @@ It is draggable, resizable and frameless.
 
 ## Download
 
-- [Mac Arm64 .dmg](https://github.com/flaviodelgrosso/chatgpt-desktop-app-electron/releases/download/v0.0.1/ChatGPT-0.0.1-arm64.dmg)
-- [Mac Intel .dmg](https://github.com/flaviodelgrosso/chatgpt-desktop-app-electron/releases/download/v0.0.1/ChatGPT-darwin-0.0.1-x64.dmg)
+- [Mac Arm64 .dmg](https://github.com/flaviodelgrosso/chatgpt-desktop-app-electron/releases/download/v0.1.0/ChatGPT-0.1.0-arm64.dmg)
+- [Mac Intel .dmg](https://github.com/flaviodelgrosso/chatgpt-desktop-app-electron/releases/download/v0.1.0/ChatGPT-darwin-0.1.0-x64.dmg)
 
 ## Build
 
