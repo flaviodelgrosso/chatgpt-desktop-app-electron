@@ -6,6 +6,10 @@ import { app, globalShortcut } from 'electron';
 import { createAppWindow, setupTrayIcon } from './appWindow';
 
 if (process.platform === 'darwin') {
+  /**
+   * TODO: find a better way to hide the dock icon
+   * @see https://github.com/electron/electron/pull/21983
+   */
   setTimeout(() => {
     app.dock.hide();
   }, 2000);
